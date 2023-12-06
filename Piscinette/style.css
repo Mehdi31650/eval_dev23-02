@@ -1,0 +1,146 @@
+/*----- PARAMETRES GENERAUX -----*/
+
+* {
+    margin:0;
+    padding:0; 
+    /* Je retire ici les marges et marges internes par défauts de tous les éléments */
+}
+
+body {
+    background: #90B7CF; /* Couleur du fond de l'élément body */
+}
+
+
+
+/*----- HEADER -----*/
+#title {
+    margin-top: 20px; /* Marge en haut pour aérer le titre */
+    font-size: 3rem; /* Taille du titre */
+    margin-right: 300px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+}
+
+#header #test {
+    border-radius: 50px;
+}
+
+header button {
+    margin: auto 0;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row; /* Change la direction de la liste (colonne vers ligne) */
+    justify-content: center; /* Centre la liste */
+    align-items: center;
+    height: 50px;
+}
+
+.nav li {
+    margin: 15px 10px; /* Donne une marge aux éléments de la liste pour les aérés // 0px en haut et en bas mais 10px a gauche et a droite de chaque éléments*/
+    list-style: none; /* retire les puces de la liste */ 
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none; /* Retire le style de base des liens */
+    border-bottom: 2px #90B7CF solid;
+}
+
+.nav li a:hover {
+    color: white;
+    border-bottom: 2px #E8BED3 solid;
+}
+
+.user-cart {
+    display: flex;
+    align-items: center;
+}
+
+/*----- MAIN -----*/ 
+main {
+    margin: 0 10%;
+    text-align: center;
+}
+
+/* construction du carousel */
+.carousel {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    background-color: bisque;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* construction d'un modele de item-card */
+.item-card {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.item-card:hover {
+    transform: translate(0, 50px) scale(1.5);
+}
+
+.gauche {
+    background-color: rgb(255, 72, 0);
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gauche img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.droite {
+    background-color: green;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+}
+
+.droite ul {
+    list-style: none;
+}
+
+/*----- Commentaire et avis -----*/ 
+
+.commentary {
+    display: flex;
+    margin: 10px auto;
+    background-color: #90B7CF;
+    width: 80%;
+}
+
+.star {
+    color: rgba(238, 255, 2, 0.664);
+}
+
+.commentary-card {
+    margin: 10px 20px;
+    background-color: #90B7CF(255, 255, 255);
+    padding: 5px;
+    color:rgb(255, 255, 255) ;
+}
+
+
+

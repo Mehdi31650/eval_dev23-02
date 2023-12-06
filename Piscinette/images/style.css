@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #7C9ACC  ;
+}
+
+/* --- CODE CONSTANT --- */ 
+/* HEADER */ 
+header {
+    display: flex;
+    flex-direction: column;
+}
+/* Logo */
+.logo {
+    max-width: 350px;
+    max-height: 350px;
+    align-self: center;
+}
+
+/* NAV BAR */ 
+.nav {
+    display: flex;
+    flex-direction: row; /* Change la direction de la liste (colonne vers ligne) */
+    justify-content: center; /* Centre la liste */
+    align-items: center;
+    height: 30px;
+}
+
+.nav li {
+    padding-bottom: 20px;
+    margin: 10px 30px; /* Donne une marge aux éléments de la liste pour les aérés // 0px en haut et en bas mais 10px a gauche et a droite de chaque éléments*/
+    list-style: none;  /* retire les puces de la liste */ 
+
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none; /* Retire le style de base des liens */
+    border-bottom: 5px #90B7CF solid;
+    text-transform: uppercase;
+}
+
+.nav li a:hover {
+    color: rgb(1, 1, 1);
+    border-bottom: 5px #E8BED3 solid;
+}
+
+/* CAROUSEL */
+.global {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+.right-side {
+    text-align: center;
+    background-color:  #D0E7DA;
+    height: 150px;
+    width: 150px;
+}
+
+/* PARTIE DE MEHDI */ 
+
+/*----- Commentaire et avis -----*/ 
+
+.commentary {
+    display: flex;
+    margin: 10px auto;
+    background-color: #90B7CF;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.star {
+    color: rgba(238, 255, 2, 0.664);
+    text-align: center;
+}
+
+.commentary-card {
+    margin: 10px 20px;
+    background-color: #90B7CF(255, 255, 255);
+    padding: 5px;
+    color:rgb(255, 255, 255) ;
+}
+
+
+/* --- CODE DE LEA ( LES 3 PREMIERES CARTES ) --- */
+
+.article img{
+    height: 260px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bebebox{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.article{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.393) 0px 5px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.article button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #B3DDCD;
+    padding: 10px;
+    border-color: #B3DDCD;
+    border-bottom: 2px solid #97bbad;
+    border-radius: 5px;
+}
+
+.article h3 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+
+.article a {
+    text-decoration: none;
+    color: black;
+}
+
+.article p{
+    font-family: nunito;
+}
+
+.article h3{
+    font-family: quicksand;
+}
