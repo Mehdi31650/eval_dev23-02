@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+}
+h1:hover{
+    color: green;
+}
+#Image{
+        background-color: lightgray;
+}
+p:active{
+    background-color: grey;
+}
+.paragraphe:hover{
+    background-color: lightgray;
+}
+a{
+    color: orange;
+}
+.a:visited{
+    color: grey;
+}
+img:hover{
+    display: none;
+}
